@@ -1,5 +1,5 @@
 body *{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica;
     line-height: 1.5;
     text-align: center;
 }
@@ -23,7 +23,17 @@ body *{
 #delani-logo{
     padding: 5px;
 }
-#mouse{
+/* #mouse{
     height: 25px;
     width: 15px;
+} */
+#about-us{
+    margin-left: 35px;
+    margin-right: 35px;
+}
+#about-us h2{
+    font-weight: 700;
+}
+#about-us p{
+    font-size: x-small;
 }
