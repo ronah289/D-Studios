@@ -66,4 +66,8 @@ body *{
 }
 #what-we-do img{
     margin-left: 0;
+    padding-top: 1.2%;
+}
+#what-we-do h2{
+    font-weight: bold;
 }
