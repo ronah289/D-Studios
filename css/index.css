@@ -7,10 +7,23 @@ body *{
     height: 150px;
     margin: 5px;
 }
-#top-content{
+.top-content{
     width: 100%;
     background-image: url("../assets/backgrounds/h_img.jpg");
     background-size: cover;
-    height: 500px;
+    height: 620px;
     margin: 0;
+    background-repeat: no-repeat;
+}
+#top-content-notes{
+    position: relative;
+    padding-top: 14%;
+    color: white;
+}
+#delani-logo{
+    padding: 5px;
+}
+#mouse{
+    height: 25px;
+    width: 15px;
 }
