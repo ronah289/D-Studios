@@ -30,10 +30,25 @@ body *{
 #about-us{
     margin-left: 35px;
     margin-right: 35px;
+    padding-top: 15px;
 }
 #about-us h2{
-    font-weight: 700;
+    font-weight: bold;
 }
 #about-us p{
     font-size: x-small;
+}
+#services{
+    background-image: url("../assets/backgrounds/s_image.jpg");
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    background-size: 1000px;
+    height: 200px;
+    width: 100%;
+}
+#services-text{
+    padding-top: 3.5%;
+    padding-bottom: 3.5%;
+    font-size: xx-small;
 }
