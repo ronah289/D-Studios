@@ -5,7 +5,8 @@ body *{
 }
 #portfolio img{
     height: 150px;
-    margin: 5px;
+
+    margin: 0.8%;
 }
 .top-content{
     width: 100%;
@@ -51,4 +52,18 @@ body *{
     padding-top: 3.5%;
     padding-bottom: 3.5%;
     font-size: xx-small;
+}
+#what-we-do{
+    margin-top: 2.5%;
+    width: 100%;
+    padding-bottom: 6.5%;
+}
+#what-we-do-notes #images{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+}
+#what-we-do img{
+    margin-left: 0;
 }
