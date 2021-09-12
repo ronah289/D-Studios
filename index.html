@@ -59,42 +59,51 @@
         <div id="what-we-do-notes">
           <h3>WHAT WE DO</h3>
           <div id="images">
-            <img src="./assets/services_icons/design_icon.png" alt="" />
+            <div class="shown">
+              <img src="./assets/services_icons/design_icon.png" alt="" />
+              <h6 class="image-name">DESIGN</h6>
+            </div>
             <div class="what-we-do-hide">
               <h6>DESIGN</h6>
-              <p>
+              <p class="design">
                 Our design practice offers a full range of services including
                 brand strategy, interaction and visual design and user
                 experience testing.
               </p>
-              <p>
+              <p class="design">
                 Throughout your project, our designers create and implement
                 visual design and workflows, solicit user feedback and work with
                 you to make sure what gets built is what is needed.
               </p>
             </div>
-            <img src="./assets/services_icons/dev_icon.png" alt="" />
+            <div class="shown">
+              <img src="./assets/services_icons/dev_icon.png" alt="" />
+              <h6 class="image-name">DEVELOPMENT</h6>
+            </div>
             <div class="what-we-do-hide">
               <h6 id="develop">DEVELOPMENT</h6>
-              <p>
+              <p class="development">
                 All engineers are fluent in the latest enterprise, mobile and
                 web development technologies.
               </p>
-              <p>
+              <p class="development">
                 They collaborate with your team to write, and improve code on a
                 daily basis, using proven practices such as test-driven
                 development and pair programming.
               </p>
             </div>
-            <img src="./assets/services_icons/product_icon.png" alt="" />
+            <div class="shown">
+              <img src="./assets/services_icons/product_icon.png" alt="" />
+              <h6 class="image-name">PRODUCT MANAGEMENT</h6>
+            </div>
             <div class="what-we-do-hide">
               <h6>PRODUCT MANAGEMENT</h6>
-              <p>
+              <p class="p-management">
                 Planning and development is iterative. Because we are constantly
                 coding and testing, the products we build are always ready to go
                 live.
               </p>
-              <p>
+              <p class="p-management">
                 This iterative process allows for changes as business
                 requirements evolve.
               </p>
@@ -114,7 +123,10 @@
           <img src="./assets/portfolio/work5.jpg" alt="" />
           <img src="./assets/portfolio/work6.jpg" alt="" />
           <img src="./assets/portfolio/work7.jpg" alt="" />
-          <img src="./assets/portfolio/work8.jpg" alt="" />
+          <div class="text-on-image">
+            <img src="./assets/portfolio/work8.jpg" alt="" />
+            <div class="image-text">BAILEY<br />WONGER</div>
+          </div>
         </div>
       </div>
       <div id="contact-background">
@@ -134,8 +146,13 @@
               placeholder="Email..."
             />
             <br />
-            <textarea name="user-message" id="user-message" cols="30" rows="7" placeholder="Your message here..." ></textarea
-            >
+            <textarea
+              name="user-message"
+              id="user-message"
+              cols="30"
+              rows="7"
+              placeholder="Your message here..."
+            ></textarea>
             <div id="buttons">
               <button type="reset" id="clear">Clear Values</button>
               <button type="submit" id="submit">Submit</button>
@@ -152,7 +169,9 @@
       <img src="./assets/social_icons/behance.png" alt="" />
       <img src="./assets/social_icons/pinterest.png" alt="" />
       <img src="./assets/social_icons/flickr.png" alt="" />
-      <p>DELANI STUDIO</p>
+      <div id="delani">
+        <p>DELANI STUDIO</p>
+      </div>
       <p>2019</p>
     </div>
   </body>
