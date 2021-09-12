@@ -1,9 +1,10 @@
-body *{
+body * {
     font-family: Helvetica;
     line-height: 1.5;
     text-align: center;
 }
-.top-content{
+
+.top-content {
     width: 100%;
     background-image: url("../assets/backgrounds/h_img.jpg");
     background-size: cover;
@@ -11,30 +12,37 @@ body *{
     margin: 0;
     background-repeat: no-repeat;
 }
-#top-content-notes{
+
+#top-content-notes {
     position: relative;
     padding-top: 14%;
     color: white;
 }
-#delani-logo{
+
+#delani-logo {
     padding: 5px;
 }
+
 /* #mouse{
     height: 25px;
     width: 15px;
 } */
-#about-us{
+
+#about-us {
     margin-left: 35px;
     margin-right: 35px;
     padding-top: 15px;
 }
-#about-us h2{
+
+#about-us h2 {
     font-weight: bold;
 }
-#about-us p{
+
+#about-us p {
     font-size: x-small;
 }
-#services{
+
+#services {
     background-image: url("../assets/backgrounds/s_image.jpg");
     background-repeat: no-repeat;
     font-weight: bold;
@@ -44,74 +52,102 @@ body *{
     height: 200px;
     width: 100%;
 }
-#services-text{
+
+#services-text {
     padding-top: 3.5%;
     padding-bottom: 3.5%;
     font-size: xx-small;
 }
-#services-text h2{
+
+#services-text h2 {
     font-weight: bold;
 }
-#what-we-do{
+
+#what-we-do {
     margin-top: 2.5%;
     width: 100%;
     padding-bottom: 6.5%;
 }
-#what-we-do-notes #images{
+
+#what-we-do-notes #images {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     width: 100%;
 }
-#what-we-do img{
+
+#what-we-do img {
     margin-left: 0;
     padding-top: 1.2%;
     display: none;
 }
-#what-we-do h3{
+
+#what-we-do h3 {
     font-weight: bold;
     text-align: center;
 }
-.what-we-do-hide{
+
+.what-we-do-hide {
     display: block;
     font-size: x-small;
     justify-content: space-evenly;
 }
-.what-we-do-hide h3{
+
+.what-we-do-hide h3 {
     text-align: center;
 }
-#what-we-do h6{
+
+#what-we-do h6 {
     font-weight: bold;
 }
-#develop{
+
+#develop {
     padding-right: 19%;
 }
-#portfolio img{
+
+#portfolio img {
     display: inline;
     height: 150px;
     width: 150px;
     margin: 0.8%;
 }
-#portfolio-title{
+
+#portfolio-title {
     font-weight: bold;
 }
-#contact-background{
+
+#contact-background {
     margin-top: 35px;
     min-width: 100%;
     background-image: url("../assets/backgrounds/c_image.jpg");
     background-size: contain;
-    height: 500px;
+    height: 450px;
     background-repeat: no-repeat;
-    background-color: none;
 }
-#contact{
+
+#contact {
+    padding-top: 20px;
     width: 100%;
     display: block;
 }
-#person-name,#person-email{
-    width: 25%;
-    border-style: solid white;
+
+textarea {
+    margin-left: 15px;
+    display: inline;
+    width: 49%;
+    margin-top: 7.5px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid white;
 }
-textarea{
-    opacity: 0.2;
+
+input {
+    width: 25%;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid white;
+}
+
+::placeholder {
+    color: white;
+    opacity: 1;
+    text-align: start;
 }
