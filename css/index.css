@@ -22,6 +22,7 @@ body * {
 #delani-logo {
     padding: 5px;
 }
+
 #about-us {
     margin-left: 35px;
     margin-right: 35px;
@@ -73,7 +74,7 @@ body * {
 #what-we-do img {
     margin-left: 0;
     padding-top: 1.2%;
-    display: none;
+    
 }
 
 #what-we-do h3 {
@@ -85,6 +86,7 @@ body * {
     display: block;
     font-size: x-small;
     justify-content: space-evenly;
+    display: none;
 }
 
 .what-we-do-hide h3 {
@@ -126,6 +128,7 @@ body * {
     color: white;
     font-weight: bold;
 }
+
 textarea {
     margin-left: 15px;
     display: inline;
@@ -145,4 +148,27 @@ input {
     color: white;
     opacity: 1;
     text-align: start;
+}
+
+.text-on-image {
+    text-align: center;
+    display: inline;
+    position: relative;
+}
+
+.image-text {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    left: 20px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: left;
+    border: 2.5px solid white;
+    font-weight: bold;
+    padding-bottom: 2px;
+}
+#delani{
+    margin-top: 4.5px;
 }
