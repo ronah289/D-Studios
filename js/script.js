@@ -34,7 +34,7 @@ $(document).ready(function(){
         var userMessage = $("#user-message").val();
 
         if((personName != '')&&(userMail !='')&&(userMessage != '')){
-            alert(personName+"  Thank You For Your Feedback Received");
+            alert(personName+"  Thank You For Your Feedback");
         }
         else{
             alert("Check your entries");
