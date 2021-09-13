@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/bootstrap.css" />
     <link rel="stylesheet" href="css/index.css" />
+    <script src="./js/jquery.js"></script>
+    <script src="./js/script.js"></script>
     <title>Document</title>
   </head>
   <body>
@@ -55,15 +57,19 @@
           </p>
         </div>
       </div>
-      <div id="what-we-do">
+      <div id="what-we-do" class="row d-flex">
         <div id="what-we-do-notes">
           <h3>WHAT WE DO</h3>
           <div id="images">
+            <div class="col-md-4">
+            <span id="design-show" class="col-md-4">
             <div class="shown">
               <img src="./assets/services_icons/design_icon.png" alt="" />
               <h6 class="image-name">DESIGN</h6>
             </div>
+            </span>
             <div class="what-we-do-hide">
+              <span id="design-hide" class="col-md-4">
               <h6>DESIGN</h6>
               <p class="design">
                 Our design practice offers a full range of services including
@@ -76,11 +82,17 @@
                 you to make sure what gets built is what is needed.
               </p>
             </div>
+          </span>
+            </div>
+            <div class="col-md-4">
             <div class="shown">
-              <img src="./assets/services_icons/dev_icon.png" alt="" />
-              <h6 class="image-name">DEVELOPMENT</h6>
+              <span id="develop-show">
+              <img class="develop1" src="./assets/services_icons/dev_icon.png" alt="" />
+              <h6 class="develop1" class="image-name">DEVELOPMENT</h6>
+              </span>
             </div>
             <div class="what-we-do-hide">
+              <span id="develop-hide">
               <h6 id="develop">DEVELOPMENT</h6>
               <p class="development">
                 All engineers are fluent in the latest enterprise, mobile and
@@ -91,12 +103,18 @@
                 daily basis, using proven practices such as test-driven
                 development and pair programming.
               </p>
+              </span>
             </div>
+            </div>
+            <div class="col-md-4">
             <div class="shown">
+              <span id="p-management-show" class="col-md-4">
               <img src="./assets/services_icons/product_icon.png" alt="" />
               <h6 class="image-name">PRODUCT MANAGEMENT</h6>
+              </span>
             </div>
             <div class="what-we-do-hide">
+              <span id="p-management-hide" class="col-md-4">
               <h6>PRODUCT MANAGEMENT</h6>
               <p class="p-management">
                 Planning and development is iterative. Because we are constantly
@@ -107,6 +125,8 @@
                 This iterative process allows for changes as business
                 requirements evolve.
               </p>
+              </span>
+            </div>
             </div>
           </div>
         </div>
@@ -132,7 +152,7 @@
       <div id="contact-background">
         <div id="contact">
           <h2>CONTACT US</h2>
-          <form action="#">
+          <form id="contact-form" action="#">
             <input
               type="text"
               name="person-name"
