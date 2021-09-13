@@ -74,7 +74,6 @@ body * {
 #what-we-do img {
     margin-left: 0;
     padding-top: 1.2%;
-    
 }
 
 #what-we-do h3 {
@@ -86,7 +85,6 @@ body * {
     display: block;
     font-size: x-small;
     justify-content: space-evenly;
-    display: none;
 }
 
 .what-we-do-hide h3 {
@@ -97,15 +95,16 @@ body * {
     font-weight: bold;
 }
 
-#develop {
-    padding-right: 19%;
-}
+
 
 #portfolio img {
     display: inline;
     height: 150px;
     width: 150px;
     margin: 0.8%;
+}
+#portfolio img:hover,.image-text:hover{
+    opacity: 0.4;
 }
 
 #portfolio-title {
@@ -169,6 +168,10 @@ input {
     font-weight: bold;
     padding-bottom: 2px;
 }
-#delani{
+
+#delani {
     margin-top: 4.5px;
+}
+#design-hide,#develop-hide,#p-management-hide{
+    display: none;
 }
