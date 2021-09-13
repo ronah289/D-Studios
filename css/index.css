@@ -95,15 +95,14 @@ body * {
     font-weight: bold;
 }
 
-
-
 #portfolio img {
     display: inline;
     height: 150px;
     width: 150px;
     margin: 0.8%;
 }
-#portfolio img:hover,.image-text:hover{
+
+#portfolio img:hover, .image-text:hover {
     opacity: 0.4;
 }
 
@@ -172,6 +171,7 @@ input {
 #delani {
     margin-top: 4.5px;
 }
-#design-hide,#develop-hide,#p-management-hide{
+
+#design-hide, #develop-hide, #p-management-hide {
     display: none;
 }
