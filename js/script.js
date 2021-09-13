@@ -26,3 +26,18 @@ $("#p-management-hide").click(function(){
 });
 });
 // backend logic
+$(document).ready(function(){
+    $("form#contact-form").submit(function(){
+        event.preventDefault();
+        var personName = $("#person-name").val();
+        var userMail = $("#person-email").val();
+        var userMessage = $("#user-message").val();
+
+        if((personName != '')&&(userMail !='')&&(userMessage != '')){
+            alert(personName+"  Thank You For Your Feedback Received");
+        }
+        else{
+            alert("Check your entries");
+        }
+    });
+});
