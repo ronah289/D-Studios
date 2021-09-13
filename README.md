@@ -1,4 +1,4 @@
-# My-Portfolio
+# Delani Studio
 
 ## Author
 
@@ -6,7 +6,7 @@
 
 ## Description
 
-* A web application for a software creation studio, highlighting different information.
+* A web application for Delani Studio, highlighting different information about them.
 
 ## Setup / Requirements
 
