@@ -29,7 +29,7 @@
 
 ## Live Site
 
-* View [live](https://ronah289.github.io/D-Studios/)
+* View [live](https://ronah289.github.io/D-Studios/index.html)
 
 ## License Information
 
